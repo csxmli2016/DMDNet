@@ -25,7 +25,7 @@
 
 ## <span id="jump">CelebRef-HQ dataset</span>
 <p align="justify">
-This CelebRef-HQ dataset contains 1,005 identities, which has a total of 10,555 images and covers different genders, poses, expressions, etc. Each person has 3~20 images. We hope this would benefit the reference-based face restoration on high-resolution space (512*512). See the following example of one person.
+This CelebRef-HQ dataset contains 1,005 identities, which has 10,555 images and covers different genders, poses, expressions, etc. Each person has 3~20 high-quality images. We hope this would benefit the reference-based face restoration on high-resolution space (512*512). See the following example of one person.
 </p>
 <div align=center>
 <img src="./GithubImgs/refexample.png" width=100%>
