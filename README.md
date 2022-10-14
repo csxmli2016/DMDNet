@@ -44,7 +44,7 @@ or
 - [GoogleDrive](https://drive.google.com/file/d/1uzVookgAXN2HcgF1AHd_sF6nORDHt9nU/view?usp=sharing)
 
 ## Acknowledgement
-This project is built based on the excellent [BasicSR](https://github.com/XPixelGroup/BasicSR), [KAIR](https://github.com/cszn/KAIR) and [CelebV-HQ](https://github.com/CelebV-HQ/CelebV-HQ).
+This project is built based on the excellent [BasicSR](https://github.com/XPixelGroup/BasicSR) and [KAIR](https://github.com/cszn/KAIR). We refer to the agreement of [CelebV-HQ](https://github.com/CelebV-HQ/CelebV-HQ).
 
 
 ## Citation
