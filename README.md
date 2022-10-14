@@ -1,5 +1,13 @@
 ## [Learning Dual Memory Dictionaries for Blind Face Restoration]()
-> The proposed CelebRef-HQ dataset has been released (see below). All code and model will be available on November.
+> The proposed CelebRef-HQ dataset has been released ([see below](#jump)). All code and model will be available on November.
+
+### Motivation
+<p align="justify"> These blind face restoration methods easily change the personal details when handling the severely degraded input. So it is necessary to introduce the high-quality reference from the same identity to keep the personalized textures. See the following examples.
+</p>
+
+<div align=center>
+<img src="./GithubImgs/idref.png" width=100%>
+</div>
 
 <p align="justify">Blind face restoration is a challenging task due to the unknown, unsynthesizable and complex degradation, yet is valuable in many practical applications. To improve the performance of blind face restoration, recent works mainly treat the two aspects, i.e., generic and specific restoration, separately. In particular, generic restoration attempts to restore the results through general facial structure prior, while on the one hand, cannot generalize to real-world degraded observations due to the limited capability of direct CNNs' mappings in learning blind restoration, and on the other hand, fails to exploit the identity-specific details. On the contrary, specific restoration aims to incorporate the identity features from the reference of the same identity, in which the requirement of proper reference severely limits the application scenarios. Generally, it is a challenging and intractable task to improve the photo-realistic performance of blind restoration and adaptively handle the generic and specific restoration scenarios with a single unified model. Instead of implicitly learning the mapping from a low-quality image to its high-quality counterpart, this paper suggests a DMDNet by explicitly memorizing the generic and specific features through dual dictionaries. First, the generic dictionary learns the general facial priors from high-quality images of any identities, while the specific dictionary stores the identity-belonging features for each person individually. Second, to handle the degraded input with or without specific reference, dictionary transform module is suggested to read the relevant details from the dual dictionaries which are subsequently fused into the input features. Finally, multi-scale dictionaries are leveraged to benefit the coarse-to-fine restoration. The whole framework including the generic and specific dictionaries is optimized in an end-to-end manner and can be flexibly plugged into different application scenarios. Moreover, a new high-quality dataset, termed CelebRef-HQ, is constructed to promote the exploration of specific face restoration in the high-resolution space. Experimental results demonstrate that the proposed DMDNet performs favorably against the state of the arts in both quantitative and qualitative evaluation, and generates more photo-realistic results on the real-world low-quality images. </p>
 <div align=center>
@@ -13,17 +21,10 @@
 (c) Adaptive Dictionary Reading Module
 </div>
 
-### Motivation
-<p align="justify"> These blind face restoration methods easily change the personal details when handling the severely degraded input. So it is necessary to introduce the high-quality reference from the same identity to keep the personalized textures. See the following examples.
-</p>
 
-<div align=center>
-<img src="./GithubImgs/idref.png" width=100%>
-</div>
-
-## CelebRef-HQ dataset
+## <span id="jump">CelebRef-HQ dataset</span>
 <p align="justify">
-This CelebRef-HQ dataset contains 1,005 identities, which has a total of 10,555 images and covers different genders, poses, expressions, etc. We hope this would benefit the reference-based face restoration on high-resolution space (512*512). See the following example of one person.
+This CelebRef-HQ dataset contains 1,005 identities, which has a total of 10,555 images and covers different genders, poses, expressions, etc. Each person has 3~20 images. We hope this would benefit the reference-based face restoration on high-resolution space (512*512). See the following example of one person.
 </p>
 <div align=center>
 <img src="./GithubImgs/refexample.png" width=100%>
