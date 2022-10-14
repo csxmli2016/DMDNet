@@ -1,4 +1,4 @@
-## [Learning Dual Memory Dictionaries for Blind Face Restoration]()
+## [Learning Dual Memory Dictionaries for Blind Face Restoration](#)
 > The proposed CelebRef-HQ dataset has been released ([see below](#jump)). All code and model will be available on November.
 
 ### Motivation
