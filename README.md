@@ -25,7 +25,7 @@
 
 ## <span id="jump">CelebRef-HQ dataset</span>
 <p align="justify">
-This CelebRef-HQ dataset contains 1,005 identities, which has 10,555 images and covers different genders, poses, expressions, etc. Each person has 3~20 high-quality images. We hope this would benefit the reference-based face restoration on high-resolution space (512*512). See the following example of one person.
+This CelebRef-HQ dataset contains 1,005 identities, and has 10,555 images in total. Each person has 3~21 high-quality images. See the following example of one person.
 </p>
 <div align=center>
 <img src="./GithubImgs/refexample.png" width=100%>
@@ -34,12 +34,12 @@ This CelebRef-HQ dataset contains 1,005 identities, which has 10,555 images and 
 
 ### Agreement
 - This CelebRef-HQ dataset is available for non-commercial research purposes only.
-- All images were obtained from the Internet which are not property of our institutions. Our institutions are not responsible for the content nor the meaning of these images.
+- All images are obtained from the Internet which are not property of our institutions. Our institutions are not responsible for the content nor the meaning of these images.
 - You agree not to reproduce, duplicate, copy, sell, trade, resell or exploit for any commercial purposes, any portion of the images and any portion of derived data.
 - You agree not to further copy, publish or distribute any portion of this CelebRef-HQ dataset. 
 
 You can download this dataset from the following link:
-- [BaiduNetDisk]()
+- [BaiduNetDisk](https://pan.baidu.com/s/1p5SvZ56ALPGf_q8FZnyvcQ?pwd=5nkd)
 or
 - [GoogleDrive](https://drive.google.com/file/d/1uzVookgAXN2HcgF1AHd_sF6nORDHt9nU/view?usp=sharing)
 
