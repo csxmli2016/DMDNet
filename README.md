@@ -2,7 +2,7 @@
 > The proposed CelebRef-HQ dataset has been released ([see below](#jump)). All code and model will be available on November.
 
 ### Motivation
-<p align="justify"> These blind face restoration methods easily change the personal details when handling the severely degraded input. So it is necessary to introduce the high-quality reference from the same identity to keep the personalized textures. See the following examples.
+<p align="justify"> These blind face restoration methods easily change the personal details when handling the severely degraded input. So it would be better to introduce the high-quality reference from the same identity to keep the personalized textures. See the following examples.
 </p>
 
 <div align=center>
