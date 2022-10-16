@@ -35,7 +35,7 @@ This CelebRef-HQ dataset contains 1,005 identities, and has 10,555 images in tot
 ### Agreement
 - This CelebRef-HQ dataset is available for non-commercial research purposes only.
 - All images are obtained from the Internet which are not property of our institutions. Our institutions are not responsible for the content nor the meaning of these images.
-- You agree not to reproduce, duplicate, copy, sell, trade, resell or exploit for any commercial purposes, any portion of the images and any portion of derived data.
+- You agree not to reproduce, duplicate, copy, sell, trade, resell or exploit for any commercial purposes.
 - You agree not to further copy, publish or distribute any portion of this CelebRef-HQ dataset. 
 
 You can download this dataset from the following link:
