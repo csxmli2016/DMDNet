@@ -1,0 +1,7 @@
+./TestExamples/TestGenericRestoration/RealLQs/0001.png
+./TestExamples/TestGenericRestoration/RealLQs/0002.png
+./TestExamples/TestGenericRestoration/RealLQs/0003.png
+./TestExamples/TestGenericRestoration/RealLQs/0004.png
+./TestExamples/TestGenericRestoration/RealLQs/0005.png
+./TestExamples/TestGenericRestoration/RealLQs/0006.png
+./TestExamples/TestGenericRestoration/RealLQs/0007.png
