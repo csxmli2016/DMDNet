@@ -24,6 +24,43 @@
 (c) Adaptive Dictionary Reading Module
 </div>
 
+## Prerequisites
+```shell
+pip install -r requirements.txt
+```
+
+## Pre-train Models
+Download from the following url and put it into ./checkpoints/
+- [Github](https://github.com/csxmli2016/DMDNet/releases/download/v1/DMDNet.pth)
+
+## Specific Restoration (with several high-quality references from the same identity)
+```bash
+CUDA_VISIBLE_DEVICES=0 python main_test.py -s ./TestExamples/TestSpecificRestoration/SpecificLists.txt -d ./TestExamples/Results_TestSpecificRestoration
+```
+> Please refer to our [ASFFNet512](https://github.com/csxmli2016/ASFFNet512) to see how to prepare the reference data
+
+<div align=center>
+<img src="./GithubImgs/gs.png" width=100%>
+</div>
+
+
+## Generic Restoration (without any reference)
+```bash
+CUDA_VISIBLE_DEVICES=0 python main_test.py -s ./TestExamples/TestGenericRestoration/GenericLists.txt -d ./TestExamples/Results_TestGenericRestoration
+```
+
+<div align=center>
+<img src="./GithubImgs/g.png" width=100%>
+</div>
+
+## Failure Cases
+Since our model relies on facial landmarks to embed the HQ component features into LQ input, it easily generates bad results due to inaccurate locations. Albeit we fine-tune the facial landmark detection model on our synthetic LQ images, it easily overfits to frontal images. So we did not concentrate more on it. To check whether the detected landmarks are accurate, you can add --check to see their visualization results.
+
+<div align=center>
+<img src="./GithubImgs/failure.png" width=60%>
+</div>
+
+
 
 ## <span id="jump">CelebRef-HQ dataset</span>
 <p align="justify">
