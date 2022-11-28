@@ -1,0 +1,1 @@
+download the pre-trained model from https://github.com/csxmli2016/DMDNet/releases/download/v1/DMDNet.pth and put it into ./checkpoints
