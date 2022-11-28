@@ -1,0 +1,9 @@
+./TestExamples/TestSpecificRestoration/SynLQ/00005_17.png	./TestExamples/TestSpecificRestoration/RefsImg/00005	./TestExamples/TestSpecificRestoration/RefsLandmark/00005
+./TestExamples/TestSpecificRestoration/SynLQ/00022_14.png	./TestExamples/TestSpecificRestoration/RefsImg/00022	./TestExamples/TestSpecificRestoration/RefsLandmark/00022
+./TestExamples/TestSpecificRestoration/SynLQ/00075_14.png	./TestExamples/TestSpecificRestoration/RefsImg/00075	./TestExamples/TestSpecificRestoration/RefsLandmark/00075
+./TestExamples/TestSpecificRestoration/SynLQ/00082_17.png	./TestExamples/TestSpecificRestoration/RefsImg/00082	./TestExamples/TestSpecificRestoration/RefsLandmark/00082
+./TestExamples/TestSpecificRestoration/SynLQ/00086_1.png	./TestExamples/TestSpecificRestoration/RefsImg/00086	./TestExamples/TestSpecificRestoration/RefsLandmark/00086
+./TestExamples/TestSpecificRestoration/SynLQ/00089_10.png	./TestExamples/TestSpecificRestoration/RefsImg/00089	./TestExamples/TestSpecificRestoration/RefsLandmark/00089
+./TestExamples/TestSpecificRestoration/SynLQ/00119_17.png	./TestExamples/TestSpecificRestoration/RefsImg/00119	./TestExamples/TestSpecificRestoration/RefsLandmark/00119
+./TestExamples/TestSpecificRestoration/SynLQ/00121_1.png	./TestExamples/TestSpecificRestoration/RefsImg/00121	./TestExamples/TestSpecificRestoration/RefsLandmark/00121
+./TestExamples/TestSpecificRestoration/SynLQ/00146_17.png	./TestExamples/TestSpecificRestoration/RefsImg/00146	./TestExamples/TestSpecificRestoration/RefsLandmark/00146
